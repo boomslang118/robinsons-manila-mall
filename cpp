@@ -48,7 +48,7 @@ void init(void)
 void rangka(void)
 {
     glBegin(GL_POLYGON);
-    glColor3f(1.0, 0.0, 1.0);
+    glColor3f(1.0, 1.0, 1.0);
      glVertex3f(250.0, -150.0, 180.0);
     glVertex3f(250.0, -150.0, 180.0);
     glVertex3f(250.0, 150.0, 180.0);
@@ -56,7 +56,7 @@ void rangka(void)
     glEnd();
 
     glBegin(GL_POLYGON);
-    glColor3f(1.0, 0.0, 1.0);
+    glColor3f(1.0, 1.0, 1.0);
     glVertex3f(250.0, -150.0, -180.0);
     glVertex3f(-250.0, -150.0, -180.0);
     glVertex3f(-250.0, 150.0, -180.0);
@@ -65,7 +65,7 @@ void rangka(void)
     
     //kanan
     glBegin(GL_POLYGON);
-    glColor3f(0.0, 1.0, 0.0);
+    glColor3f(1.0, 1.0, 1.0);
      glVertex3f(250.0, -150.0, -180.0);
     glVertex3f(250.0, -150.0, 180.0);
     glVertex3f(250.0, 150.0, 180.0);
@@ -74,7 +74,7 @@ void rangka(void)
 
     //kiri
     glBegin(GL_POLYGON);
-    glColor3f(0.0, 1.0, 0.0);
+    glColor3f(1.0, 1.0, 1.0);
      glVertex3f(-250.0, -150.0, -180.0);
     glVertex3f(-250.0, -150.0, 180.0);
     glVertex3f(-250.0, 150.0, 180.0);
