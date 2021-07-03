@@ -49,36 +49,36 @@ void rangka(void)
 {
     glBegin(GL_POLYGON);
     glColor3f(1.0, 1.0, 1.0);
-     glVertex3f(250.0, -150.0, 180.0);
-    glVertex3f(250.0, -150.0, 180.0);
-    glVertex3f(250.0, 150.0, 180.0);
-    glVertex3f(250.0, 150.0, 180.0);
+     glVertex3f(250.0, -90.0, 180.0);
+    glVertex3f(250.0, -90.0, 180.0);
+    glVertex3f(250.0, 90.0, 180.0);
+    glVertex3f(250.0, 90.0, 180.0);
     glEnd();
 
     glBegin(GL_POLYGON);
     glColor3f(1.0, 1.0, 1.0);
-    glVertex3f(250.0, -150.0, -180.0);
-    glVertex3f(-250.0, -150.0, -180.0);
-    glVertex3f(-250.0, 150.0, -180.0);
-    glVertex3f(250.0, 150.0, -180.0);
+    glVertex3f(250.0, -90.0, -180.0);
+    glVertex3f(-250.0, -90.0, -180.0);
+    glVertex3f(-250.0, 90.0, -180.0);
+    glVertex3f(250.0, 90.0, -180.0);
     glEnd();
     
     //kanan
     glBegin(GL_POLYGON);
     glColor3f(1.0, 1.0, 1.0);
-     glVertex3f(250.0, -150.0, -180.0);
-    glVertex3f(250.0, -150.0, 180.0);
-    glVertex3f(250.0, 150.0, 180.0);
-    glVertex3f(250.0, 150.0, -180.0);
+     glVertex3f(250.0, -90.0, -180.0);
+    glVertex3f(250.0, -90.0, 180.0);
+    glVertex3f(250.0, 90.0, 180.0);
+    glVertex3f(250.0, 90.0, -180.0);
     glEnd();
 
     //kiri
     glBegin(GL_POLYGON);
     glColor3f(1.0, 1.0, 1.0);
-     glVertex3f(-250.0, -150.0, -180.0);
-    glVertex3f(-250.0, -150.0, 180.0);
-    glVertex3f(-250.0, 150.0, 180.0);
-    glVertex3f(-250.0, 150.0, -180.0);
+     glVertex3f(-250.0, -90.0, -180.0);
+    glVertex3f(-250.0, -90.0, 180.0);
+    glVertex3f(-250.0, 90.0, 180.0);
+    glVertex3f(-250.0, 90.0, -180.0);
     glEnd();
 }
 
