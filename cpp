@@ -40,8 +40,8 @@ void init(void)
     glEnable(GL_DEPTH_TEST);
     is_depth = 1;
     glMatrixMode(GL_MODELVIEW);
-    glPointSize(9.0);
-    glLineWidth(1.5f);
+    glPointSize(5.0);
+    glLineWidth(3.0f);
 }
 
 void bangunanlt1(void)
