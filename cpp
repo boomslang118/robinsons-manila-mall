@@ -4,6 +4,7 @@
 //Adhi Satrio Wibowo (672019145)
 //Berliana Nala Cantika (672019146)
 //Russel Davis Putirulan (672019170)
+
 #include <windows.h>
 #include <gl/glut.h>
 
