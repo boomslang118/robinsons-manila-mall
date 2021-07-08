@@ -1,5 +1,5 @@
 /** KLIK MOUSE KANAN*/
-
+//disini pernah ada obed
 #include <windows.h>
 #include <gl/glut.h>
 
