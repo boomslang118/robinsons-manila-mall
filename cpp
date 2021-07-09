@@ -3221,6 +3221,252 @@ void taman (void)
     glEnd();
 }
 
+void garisparkiran (void)
+{
+    //garis1
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(185.0, 1.0, -380.0);
+    glVertex3f(185.0, 1.0, -430.0);
+    glVertex3f(190.0, 1.0, -430.0);
+    glVertex3f(190.0, 1.0, -380.0);
+    glEnd();
+
+    //garis2
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(155.0, 1.0, -380.0);
+    glVertex3f(155.0, 1.0, -430.0);
+    glVertex3f(160.0, 1.0, -430.0);
+    glVertex3f(160.0, 1.0, -380.0);
+    glEnd();
+
+    //garis3
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(125.0, 1.0, -380.0);
+    glVertex3f(125.0, 1.0, -430.0);
+    glVertex3f(130.0, 1.0, -430.0);
+    glVertex3f(130.0, 1.0, -380.0);
+    glEnd();
+
+    //garis4
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(95.0, 1.0, -380.0);
+    glVertex3f(95.0, 1.0, -430.0);
+    glVertex3f(100.0, 1.0, -430.0);
+    glVertex3f(100.0, 1.0, -380.0);
+    glEnd();
+
+    //garis5
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(65.0, 1.0, -380.0);
+    glVertex3f(65.0, 1.0, -430.0);
+    glVertex3f(70.0, 1.0, -430.0);
+    glVertex3f(70.0, 1.0, -380.0);
+    glEnd();
+
+    //garis6
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(35.0, 1.0, -380.0);
+    glVertex3f(35.0, 1.0, -430.0);
+    glVertex3f(40.0, 1.0, -430.0);
+    glVertex3f(40.0, 1.0, -380.0);
+    glEnd();
+
+    //garis7
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(5.0, 1.0, -380.0);
+    glVertex3f(5.0, 1.0, -430.0);
+    glVertex3f(10.0, 1.0, -430.0);
+    glVertex3f(10.0, 1.0, -380.0);
+    glEnd();
+
+    //garisgedetengah
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(450.0, 1.0, -450.0);
+    glVertex3f(450.0, 1.0, -445.0);
+    glVertex3f(300.0, 1.0, -445.0);
+    glVertex3f(300.0, 1.0, -450.0);
+    glEnd();
+
+    //garisgedekanan
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(450.0, 1.0, -500.0);
+    glVertex3f(450.0, 1.0, -495.0);
+    glVertex3f(250.0, 1.0, -495.0);
+    glVertex3f(250.0, 1.0, -500.0);
+    glEnd();
+
+    //garisgedekiri
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(450.0, 1.0, -400.0);
+    glVertex3f(450.0, 1.0, -395.0);
+    glVertex3f(350.0, 1.0, -395.0);
+    glVertex3f(350.0, 1.0, -400.0);
+    glEnd();
+
+    //garisbelok1
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(250.0, 1.0, -350.0);
+    glVertex3f(250.0, 1.0, -500.0);
+    glVertex3f(255.0, 1.0, -500.0);
+    glVertex3f(255.0, 1.0, -350.0);
+    glEnd();
+
+    //garisbelok2
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(295.0, 1.0, -350.0);
+    glVertex3f(295.0, 1.0, -450.0);
+    glVertex3f(300.0, 1.0, -450.0);
+    glVertex3f(300.0, 1.0, -350.0);
+    glEnd();
+
+    //garisbelok2
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(345.0, 1.0, -350.0);
+    glVertex3f(345.0, 1.0, -400.0);
+    glVertex3f(350.0, 1.0, -400.0);
+    glVertex3f(350.0, 1.0, -350.0);
+    glEnd();
+
+    //garisparkirsebrang1
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(185.0, 1.0, -0.0);
+    glVertex3f(185.0, 1.0, -50.0);
+    glVertex3f(190.0, 1.0, -50.0);
+    glVertex3f(190.0, 1.0, -00.0);
+    glEnd();
+
+    //garisparkirsebrang2
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(155.0, 1.0, -0.0);
+    glVertex3f(155.0, 1.0, -50.0);
+    glVertex3f(160.0, 1.0, -50.0);
+    glVertex3f(160.0, 1.0, -00.0);
+    glEnd();
+
+    //garisparkirsebrang3
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(125.0, 1.0, -0.0);
+    glVertex3f(125.0, 1.0, -50.0);
+    glVertex3f(130.0, 1.0, -50.0);
+    glVertex3f(130.0, 1.0, -0.0);
+    glEnd();
+
+    //garisparkirsebrang4
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(95.0, 1.0, -0.0);
+    glVertex3f(95.0, 1.0, -50.0);
+    glVertex3f(100.0, 1.0, -50.0);
+    glVertex3f(100.0, 1.0, -0.0);
+    glEnd();
+
+    //garisparkirsebrang5
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(65.0, 1.0, -0.0);
+    glVertex3f(65.0, 1.0, -50.0);
+    glVertex3f(70.0, 1.0, -50.0);
+    glVertex3f(70.0, 1.0, -0.0);
+    glEnd();
+
+    //garisparkirsebrang6
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(35.0, 1.0, -0.0);
+    glVertex3f(35.0, 1.0, -50.0);
+    glVertex3f(40.0, 1.0, -50.0);
+    glVertex3f(40.0, 1.0, -0.0);
+    glEnd();
+
+    //garis1
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(425.0, 1.0, -0.0);
+    glVertex3f(425.0, 1.0, -50.0);
+    glVertex3f(430.0, 1.0, -50.0);
+    glVertex3f(430.0, 1.0, -0.0);
+    glEnd();
+
+    //garis2
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(395.0, 1.0, -0.0);
+    glVertex3f(395.0, 1.0, -50.0);
+    glVertex3f(400.0, 1.0, -50.0);
+    glVertex3f(400.0, 1.0, -0.0);
+    glEnd();
+
+    //garis3
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(365.0, 1.0, -0.0);
+    glVertex3f(365.0, 1.0, -50.0);
+    glVertex3f(370.0, 1.0, -50.0);
+    glVertex3f(370.0, 1.0, -0.0);
+    glEnd();
+
+    //garis4
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(335.0, 1.0, -0.0);
+    glVertex3f(335.0, 1.0, -50.0);
+    glVertex3f(340.0, 1.0, -50.0);
+    glVertex3f(340.0, 1.0, -0.0);
+    glEnd();
+
+    //garis5
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(305.0, 1.0, -0.0);
+    glVertex3f(305.0, 1.0, -50.0);
+    glVertex3f(310.0, 1.0, -50.0);
+    glVertex3f(310.0, 1.0, -0.0);
+    glEnd();
+
+    //garis6
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(275.0, 1.0, -0.0);
+    glVertex3f(275.0, 1.0, -50.0);
+    glVertex3f(280.0, 1.0, -50.0);
+    glVertex3f(280.0, 1.0, -0.0);
+    glEnd();
+
+    //garis7
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(245.0, 1.0, -0.0);
+    glVertex3f(245.0, 1.0, -50.0);
+    glVertex3f(250.0, 1.0, -50.0);
+    glVertex3f(250.0, 1.0, -0.0);
+    glEnd();
+
+    //garis8
+    glBegin(GL_POLYGON);
+    glColor3f(44/255.f, 45/255.f, 46/255.f);
+    glVertex3f(215.0, 1.0, -0.0);
+    glVertex3f(215.0, 1.0, -50.0);
+    glVertex3f(220.0, 1.0, -50.0);
+    glVertex3f(220.0, 1.0, -0.0);
+    glEnd();
+}
+
 void hilang(void)
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -3228,6 +3474,7 @@ void hilang(void)
     glRotatef(xrot, 1.0f, 0.0f, 0.0f);
     glRotatef(yrot, 0.0f, 1.0f, 0.0f);
     
+    garisparkiran();
     bangunanlt1();
     bangunanlt2();
     parkiran();
@@ -3263,6 +3510,7 @@ void tampil(void)
     glRotatef(yrot, 0.0f, 1.0f, 0.0f);
     
     objekhilang();
+    garisparkiran();
     bangunan_lt1();
     bangunan_lt2();
     ataplt2();
