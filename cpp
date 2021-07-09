@@ -3511,8 +3511,8 @@ void tampil(void)
     
     objekhilang();
     garisparkiran();
-    bangunan_lt1();
-    bangunan_lt2();
+    bangunanlt1();
+    bangunanlt2();
     ataplt2();
     parkiran();
     bangunan2();
