@@ -2571,7 +2571,7 @@ void meja(void)
     glEnd();
 }
 
-void bangunanlt1(void)
+void bangunan_lt1(void)
 {
     //depan
     glBegin(GL_POLYGON);
@@ -2615,7 +2615,7 @@ void bangunanlt1(void)
     glEnd();
 }
 
-void bangunanlt2(void)
+void bangunan_lt2(void)
 {
     //depan
     glBegin(GL_POLYGON);
@@ -3157,8 +3157,8 @@ void tampil(void)
     
     atap();
     lantaibaru();
-    bangunanlt1();
-    bangunanlt2();
+    bangunan_lt1();
+    bangunan_lt2();
     ataplt2();
     parkiran();
     bangunan2();
