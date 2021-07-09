@@ -478,18 +478,6 @@ void bangunankiri(void)
     glEnd();
 }
 
-/*void lantaibaru(void)
-{
-    //kanan
-    glBegin(GL_POLYGON);
-    glColor3f(92 / 255.f, 100 / 255.f, 104 / 255.f);
-    glVertex3f(450.0, -90.0, -450.0);
-    glVertex3f(450.0, -90.0, 300.0);
-    glVertex3f(450.0, 20.0, 300.0);
-    glVertex3f(450.0, 20.0, -450.0);
-    glEnd();
-}*/
-
 void parkiran(void)
 {
     //atap
@@ -3119,7 +3107,6 @@ void hilang(void)
     glRotatef(xrot, 1.0f, 0.0f, 0.0f);
     glRotatef(yrot, 0.0f, 1.0f, 0.0f);
     
-    //lantaibaru();
     bangunanlt1();
     bangunanlt2();
     parkiran();
@@ -3137,8 +3124,8 @@ void hilang(void)
     kursi();
     meja();
     taman();
-    bangunanlt_1();
-    bangunanlt_2();
+    bangunan_lt1();
+    bangunan_lt2();
     bangunanlt3();
     bangunanlt4();
     lingkaran();
@@ -3156,7 +3143,6 @@ void tampil(void)
     glRotatef(yrot, 0.0f, 1.0f, 0.0f);
     
     atap();
-    lantaibaru();
     bangunan_lt1();
     bangunan_lt2();
     ataplt2();
@@ -3176,8 +3162,8 @@ void tampil(void)
     kursi();
     meja();
     taman();
-    bangunanlt_1();
-    bangunanlt_2();
+    bangunan_lt1();
+    bangunan_lt2();
     bangunanlt3();
     bangunanlt4();
     lingkaran();
