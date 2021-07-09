@@ -3242,7 +3242,7 @@ void hilang(void)
     lantai_luar();
     garis_tembok();
     tiang_gedung_belakang();
-    ornamet();
+    ornament();
     taman();
     bangunan_lt1();
     bangunan_lt2();
